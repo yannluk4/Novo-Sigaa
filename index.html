@@ -5,17 +5,50 @@
     <title>Sigaa Login</title>
     <h1>Entrar no Sistema</h1>
     <link rel = "stylesheet" href = "main.css">
+    
+    <style>
+            
+            header{
+                   margin-bottom: auto;
+            }
+            
+            div{
+                  background-color: rgb(176, 196, 222);;
+                  font-size: 25px;
+                  padding: 80px;
+                  border-radius: 15px;
+                  position: absolute;
+                  top: 25%;
+    
+            }
+
+            input{
+                   padding: 15px;
+                   border: none;
+                   outline: none;
+                   font-size: 15px;
+                   border-radius: 10px;
+            }
+            
+   </style>
+
+
 </head>
+
 <body>
     <header><h1>UFC - Sigaa - Sistema Integrado de Gestão de Atividades Acadêmicas</h1></header>
 
-    <section>
+    <div>
+        <h1 style="top: 100%">Login</h1>
+        <br/>
         <form action="painelDeControle.html" method="GET">
-            Login: <input type="text" name="user" value="" required>
-            Senha: <input type="password" name="password" value="" required> <br/>
-            <input type="submit" name="submit_button" value="enviar">
+            <input type="text" name="user" placeholder="Usuário" value="" required;>
+            <br/>
+            <input type="password" name="password" placeholder="Senha" value="" required;> 
+            <br/>
+            <input type="submit" name="submit_button" value="Enviar"; style="font-size: 20px">
         </form>
-    </section>
+    </div>
 
     <footer><h2>SIGAA | Copyright © 2010-2022 - Superintendência de Tecnologia da Informação - UFC - (85) 3366-9999 - si3asprd03.ufc.br</h2></footer>
 </body>

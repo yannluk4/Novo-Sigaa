@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastro de Componentes</title>
+    <link rel = "stylesheet" href = "main.css">
+</head>
+
+<nav>
+    <a href="painelDeControle.html"> Home</a>
+    <a href="index.html"> Login </a>
+    <a href="historico.html"> Histórico </a>
+</nav>   
+
+<body>
+    <header><h1>UFC - Sigaa - Sistema Integrado de Gestão de Atividades Acadêmicas</h1></header>
+
+   <div>
+    <h1>Cadastro de componentes curriculares</h1>
+    <br>
+    <form name = "Cadastro de Componentes" action="painel_controle.html" method = "POST">
+        <h3>Preencha o formulário de cadastro:</h3>
+        <br>
+        <label for="username">Nome da Atividade:</label>
+        <input required type="text" name="username"/>
+        <label for="horas" name="horas">Horas realizadas:</label>
+        <input required type="number" name="horas">
+        <label for="date" name="horas">Data:</label>
+        <input required type="date" name="date">
+        <label for="email" name="email">E-mail do responsável:</label>
+        <input required type="email" name="email">
+        <label for="number" name="number">Telefone do responsável:</label>
+        <input required type="number" name="number">
+        <br>
+        <input required type="submit" value="OK">
+    </form>
+   </div>
+   
+
+     <footer><h2>SIGAA | Copyright © 2010-2022 - Superintendência de Tecnologia da Informação - UFC - (85) 3366-9999 - si3asprd03.ufc.br</h2></footer>
+</body>
+</html>
